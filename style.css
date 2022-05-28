@@ -4,46 +4,59 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .header__img {
     width: 100%;
 }
+
 .header__more-info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header { 
+      text-align: center;
+  }
+
 }
-}
+
 .main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
 .task-row-wrapper {
     display: flex;
 }
+
 .unordered {
     margin:0;
     padding: 0px;
 }
+
 .list, .heading3 {
     list-style:none;
 }
+
 .input,.btn{
     outline:none;
 }
+
 .btn {
     background: none;
     border: 0px;
@@ -53,10 +66,13 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .btn:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
+
 .heading3,
 .add-item__task {
     color: #333;
@@ -67,6 +83,7 @@
     margin: 0;
     text-transform: uppercase;
 }
+
 .input-task {
     margin: 0;
     font-size: 18px;
@@ -79,20 +96,24 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .input-task:focus {
     color: #333;
 }
 
 /* New Task */
+
 .add-item__task {
     display: block;
     margin: 0 0 20px;
 }
+
 #new-task {
     width: 318px;
 }
 
 /* Task list */
+
 .list {
     overflow: hidden;
     padding: 20px 0;
@@ -102,6 +123,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .list > * {
     vertical-align: middle;
 }
@@ -109,25 +131,30 @@
 .list > .input-check {
     margin: 0 10px;
 }
+
 .list > .label-task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .list >    .input-task {
     width: 226px
 }
+
 .arrow {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .arrow:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
+
 .completed-tasks__list {
     text-decoration: line-through
     color: #888;
