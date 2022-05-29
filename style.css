@@ -157,7 +157,12 @@
 
 /* Completed */
 
-.completed-tasks__list {
+/* ul#completed-tasks label {
+    text-decoration: line-through;
+    color: #888;
+} */
+
+#main__completed-tasks .label {
     text-decoration: line-through;
     color: #888;
 }
